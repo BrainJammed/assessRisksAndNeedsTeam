@@ -13,11 +13,14 @@ $(document).ready(function () {
 $( document ).ready(function() {
     
     $("#statutoryYes").click(function(){
-    	$(".hiddenSectionOffences").show();
-	});
-	$("#statutoryNo").click(function(){
-    	$(".hiddenSectionOffences").hide();
-	});
+      $(".hiddenSectionOffences").show();
+      $(".hiddenDate").hide();
+  });
+
+  $("#statutoryNo").click(function(){
+      $(".hiddenSectionOffences").hide();
+      $(".hiddenDate").show();
+  });
 
 	$("#motivationYes").click(function(){
     	$(".hiddenSectionOffences").show();
