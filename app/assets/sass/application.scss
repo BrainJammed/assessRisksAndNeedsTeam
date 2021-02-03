@@ -25,6 +25,11 @@ $govuk-assets-path: '/govuk/assets/';
 // moj components
 @import "node_modules/@ministryofjustice/frontend/moj/all";
 
+.govuk-width-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 // SCORES
 

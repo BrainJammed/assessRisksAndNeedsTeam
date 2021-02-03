@@ -75,6 +75,65 @@ $( document ).ready(function() {
   	});
 
 
+//ORAL PSR
+
+  $("#otherOffencesYes").click(function(){
+      $(".hiddenSetQuestions").show();
+  });
+
+  $("#commitedSexualOffence").click(function(){
+      $(".hiddenSetQuestions").show();
+  });
+
+  $("#otherOffencesNo").click(function(){
+      $(".hiddenSetQuestions").hide();
+  });
+
+  $("#commitedSexualOffenceNo").click(function(){
+      $(".hiddenSetQuestions").hide();
+  });
+
+  $("#previousConvicitonsYes").click(function(){
+      $(".hiddenSection").show();
+  });
+
+  $("#previousConvicitonsNo").click(function(){
+      $(".hiddenSection").hide();
+  });
+
+  $("#accommodationYes").click(function(){
+      $(".hiddenRadiosA").show();
+  });
+
+  $("#accommodationNo").click(function(){
+      $(".hiddenRadiosA").hide();
+  });
+
+  $("#educationYes").click(function(){
+      $(".hiddenCheckboxes").show();
+  });
+
+  $("#educationNo").click(function(){
+      $(".hiddenCheckboxes").hide();
+  });
+
+  $("#perpetratorYes").click(function(){
+      $(".hiddenRadiosA").show();
+  });
+
+  $("#perpetratorNo").click(function(){
+      $(".hiddenRadiosA").hide();
+  });
+
+  $("#drugYes").click(function(){
+      $(".hiddenSetQuestions").show();
+  });
+
+  $("#drugNo").click(function(){
+      $(".hiddenSetQuestions").hide();
+  });
+
+
   	
 
 
